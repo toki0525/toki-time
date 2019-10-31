@@ -189,10 +189,6 @@
         border-radius: 20%;
         margin-bottom: 10px;
     }
-    
-    .a{
-        font-size: 15px;
-    }
 
     .small{
         padding-top: 5px;
@@ -671,7 +667,7 @@
     }
     
     .a{
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .small{
@@ -703,7 +699,7 @@
     .star3-f{
         float: left;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 3px;
         margin-left: 40px;
     }
 
@@ -1161,7 +1157,7 @@
     }
     
     .a{
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .small{
