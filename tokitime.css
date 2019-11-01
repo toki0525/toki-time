@@ -1,5 +1,9 @@
 /*パソコン向け*/
 @media screen and (min-width:1024px) {
+    .container{
+        display: none;
+    }
+    
     *{
         background-color: #f9f6ff;
         color: #3f4661;
@@ -444,14 +448,12 @@
 }
 
 /*スマホ向け*/
-@media screen　and (min-width:1px) and (max-width:480px) {
+@media screen and (min-width:1px) and (max-width:480px) {
     
-/*
     .container{
         display: none;
     }
     
-*/
     *{
         background-color: #f9f6ff;
         color: #3f4661;
@@ -497,7 +499,7 @@
     }
 
     body{
-        width: 100%;
+        width: 310%;
     }
     
     header{
@@ -936,12 +938,10 @@
 /*タブレット向け*/
 @media screen and (min-width:481px) and (max-width:1024px) {
 
-/*
     .container{
         display: none;
     }
     
-*/
     *{
         background-color: #f9f6ff;
         color: #3f4661;
