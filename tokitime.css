@@ -1,5 +1,5 @@
-/*パソコン向け*/
-@media screen and (min-width:1024px) {
+/*パソコン向け 完了*/
+@media screen and (min-width:1025px) {
     .container{
         display: none;
     }
@@ -46,12 +46,6 @@
         margin-top: 10px;
     }
     
-/*
-    body{
-        width: 130%;
-    }
-*/
-
     .language-botton{
         margin-right: 30px;
     }
@@ -91,23 +85,20 @@
         margin-top: 200px;
         margin-bottom: 200px;
     }
+    
+    .can{
+        height: 300px;
+    }
 
     .job{
-        width: 1200px;
         height: 550px; 
     }
 
     .sns{
-        width: 1200px;
         height: 200px; 
         text-align: center;
     }
-
-    .blo{
-        width: 1200px;
-        height: 650px; 
-    }
-
+    
     .title{
         background-image: url(img/toki-time.jpg);
         background-size: cover;
@@ -143,6 +134,7 @@
         float: left;
         border-radius: 20%;
         margin-right: 30px;
+        margin-left: 50px;
     }
 
     .myname{
@@ -172,7 +164,7 @@
 
     .square1{
         width: 175px;
-        height: 190px;
+        height: 150px;
         border: 3px solid #cab1ec;
         background-color: #f9f6ff;
         padding: 20px;
@@ -184,7 +176,7 @@
 
     .square2{
         width: 175px;
-        height: 190px;
+        height: 150px;
         border: 3px solid #e26499;
         background-color: #f9f6ff;
         padding: 20px;
@@ -199,47 +191,12 @@
     }
 
     .center{
-        margin-top: 30px;
+        margin-top: 40px;
     }
 
-    .star3{
-        float: left;
-        text-align: center;
-    }
-
-    .star2{
-        float: left;
-        text-align: center;
-    }
-
-    .star1{
-        float: left;
-        text-align: center;
-        margin-left: 75px;
-    }
-
-    .star3-f{
-        float: left;
-        text-align: center;
-        margin-left: 41px;
-    }
-
-    .star2-f{
-        float: left;
-        text-align: center;
-        margin-left: 60px;
-    }
-
-    .purple{
-        color: #cab1ec;
-    }
-
-    .pink{
-       color: #e26499; 
-    }
-
-    .big-mini{
+    .android{
         font-size: 23px;
+        padding-top: 20px;
     }
 
     .act{
@@ -379,6 +336,10 @@
         margin: 0 auto;
         font-size: 40px;
         margin-bottom: 10px;
+    }
+    
+    .left{
+        padding-left: 100px;
     }
 
     .font-awesome{
@@ -403,36 +364,6 @@
         color: deepskyblue;
     }
 
-    .red{
-        color: orangered;
-    }
-
-    .story{
-        margin: 50px;
-    }
-
-    .blog{
-        margin: 0 auto;
-        font-size: 40px;
-        margin-bottom: 10px;
-    }
-
-    .note-embed{
-        float: right;
-        padding-right: 30px;
-    }
-
-    .note-words{
-        padding-left: 50px;
-        text-align: left;
-        padding-top: 100px;
-    }
-
-    .note{
-        width: 200px;
-        height: 30px;
-    }
-
     .english{
         font-family: "Varela Round";
     }
@@ -447,8 +378,12 @@
     }
 }
 
-/*スマホ向け*/
+/*スマホ向け 完了*/
 @media screen and (min-width:1px) and (max-width:480px) {
+    
+    main{
+        height: auto;
+    }
     
     .container{
         display: none;
@@ -466,14 +401,14 @@
     p{
         font-family: "M PLUS Rounded 1c";
         margin: 5px;
-        font-size: 20px;
+        font-size: 10px;
         background-color: transparent;
         color: #3f4661;
     }
 
     h2{
         font-family: "Bad Script";
-        font-size: 40px;
+        font-size: 25px;
         background-color: transparent;
         text-align: center;
         font-family: "Bad Script";
@@ -482,7 +417,7 @@
 
     h3{
         font-family: "M PLUS Rounded 1c";
-        font-size: 25px;
+        font-size: 20px;
         background-color: transparent;
         font-family: "M PLUS Rounded 1c";
         color: #3f4661;
@@ -491,7 +426,7 @@
     a{
         font-family: "M PLUS Rounded 1c";
         margin: 5px;
-        font-size: 20px; 
+        font-size: 15px; 
         background-color: transparent;
         text-decoration: none;
         text-align: center;
@@ -499,7 +434,9 @@
     }
 
     body{
-        width: 310%;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
     }
     
     header{
@@ -513,68 +450,66 @@
     .language{
         color: #f9f6ff;
         text-align: center;
-        font-size: 23px;
+        font-size: 13px;
         font-family: "Varela Round";
     }
 
     .JP-botton{
-        width: 175px;
-        height: 40px;
+        width: 80px;
+        height: 20px;
         border: 3px solid #cab1ec;
         background-color: #cab1ec;
-        margin: 10px;
+        margin: 5px;
         float: bottom;
     }
 
     .EN-botton{
-        width: 175px;
-        height: 40px;
+        width: 60px;
+        height: 20px;
         border: 3px solid #cab1ec;
         background-color: #cab1ec;
-        margin: 10px;
+        margin: 5px;
         float: bottom;
     }
     
     .section-square{
-        width: 830px;
-        height: 400px;
+        width: 250px;
+        height: 300px;
         border: 3px solid #cab1ec;
         background-color: #f9f6ff;
         padding: 20px;
         margin: 0 auto;
-        margin-top: 200px;
-        margin-bottom: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     
     .pro{
-        margin-top: 80px;
+        margin-top: 40px;
+        height: 300px;
+        
     }
     
     .can{
-        height: 570px;
+        height: 950px;
     }
 
     .job{
-        width: 850px;
-        height: 1350px; 
+        height: 850px; 
     }
 
     .sns{
-        width: 850px;
-        height: 200px; 
-        text-align: center;
+        height: 150px;
     }
 
     .blo{
-        width: 850px;
         height: 650px; 
     }
 
     .title{
         background-image: url(img/toki-time.jpg);
         background-size: cover;
-        width: 840px;
-        height: 560px;
+        width: 190px;
+        height: 130px;
         text-align: center;
         object-fit: cover;
         margin: 0 auto;
@@ -587,7 +522,7 @@
 
     .toki-time{
         font-family: "M PLUS Rounded 1c";
-        font-size: 25px;
+        font-size: 15px;
         margin: 10 auto;
         text-align: center;
         margin-top: 30px;
@@ -599,7 +534,6 @@
 
     .Profile{
         margin: 0 auto;
-        font-size: 40px;
         margin-bottom: 10px;
         font-family: "Bad Script";
     }
@@ -607,16 +541,17 @@
     .photo1{
         background-image: url(img/toki.jpg);
         background-size: cover;
-        width: 240px;
-        height: 250px;
+        width: 100px;
+        height: 100px;
         float: left;
         border-radius: 20%;
         margin-right: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 150px;
     }
 
     .myname{
-        margin-left: 280px;
+        margin-left: 100px;
+        font-size: 15px;
     }
 
     .me{
@@ -630,7 +565,6 @@
 
     .Ican{
         margin: 0 auto;
-        font-size: 40px;
         margin-bottom: 10px;
         font-family: "Bad Script";
     }
@@ -644,32 +578,36 @@
 
     .square1{
         width: 175px;
-        height: 195px;
+        height: 120px;
         border: 3px solid #cab1ec;
         background-color: #f9f6ff;
         padding: 20px;
         margin: 20 auto;
         text-align: center;
-        border-radius: 20%;
-        margin-bottom: 10px;
+        border-radius: 5%;
+        margin-bottom: 15px;
         font-family: "M PLUS Rounded 1c";
     }
 
     .square2{
         width: 175px;
-        height: 195px;
+        height: 120px;
         border: 3px solid #e26499;
         background-color: #f9f6ff;
         padding: 20px;
         margin: 20 auto;
         text-align: center;
-        border-radius: 20%;
-        margin-bottom: 10px;
+        border-radius: 5%;
+        margin-bottom: 15px;
         font-family: "M PLUS Rounded 1c";
     }
     
-    .a{
+    .b{
         font-size: 17px;
+    }
+    
+    .android{
+        margin-top: 20px;
     }
 
     .small{
@@ -678,93 +616,28 @@
     }
 
     .center{
-        margin-top: 20px;
+        margin-top: 30px;
     }
-
-    .star3{
-        float: left;
-        text-align: center;
-        margin-top: 3px;
-    }
-
-    .star2{
-        float: left;
-        text-align: center;
-    }
-
-    .star1{
-        float: left;
-        text-align: center;
-        margin-left: 75px;
-    }
-
-    .star3-f{
-        float: left;
-        text-align: center;
-        margin-top: 3px;
-        margin-left: 40px;
-    }
-
-    .star2-f{
-        float: left;
-        text-align: center;
-        margin-left: 60px;
-    }
-
-    .purple{
-        color: #cab1ec;
-    }
-
-    .pink{
-       color: #e26499; 
-    }
-
-    .big-mini{
-        font-size: 23px;
-        padding-top: 0;
-    }
-
-    .act{
-        margin: 50px;
-    }
-
+    
     .works{
         margin: 0 auto;
-        font-size: 40px;
         margin-bottom: 10px;
         font-family: "Bad Script";
     }
-/*
-
-    .act-big{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-content: space-around;
-    }
-*/
 
     .tokitopo-square{
-        width: 300px;
-        height: 350px;
+        width: 175px;
+        height: 220px;
         border: 3px solid #3f4661;
         background-color: #f9f6ff;
-        padding: 20px;
+        padding: 10px;
         margin: 0 auto;
         text-align: center;
-        border-radius: 20%;
+        border-radius: 5%;
         margin-bottom: 30px;
         color: #22223b;
     }
-
-    .tokitopo-square:hover{
-        opacity: 0.7;
-        border: 3px solid #f7ef99;
-        background-color: #f7ef99;
-        color: #3f4661;
-        transition: 0.5s;
-    }
-
+    
     .tokitopo-center{
         text-align: center;
     }
@@ -772,109 +645,85 @@
     .photo2{
         background-image: url(img/rogo.jpg);
         background-size: cover;
-        width: 230px;
-        height: 130px;
-        margin: 10px;
-        margin-left: 35px;
+        width: 130px;
+        height: 80px;
+        margin: 0 auto;
     }
 
+    .tokitopo-word{
+        font-size: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
     .mediaart-square{
-        width: 300px;
-        height: 350px;
+        width: 175px;
+        height: 200px;
         border: 3px solid #3f4661;
         background-color: #f9f6ff;
         padding: 20px;
         margin: 0 auto;
         text-align: center;
-        border-radius: 20%;
+        border-radius: 5%;
         margin-bottom: 30px;
         color: #22223b;
     }
-
-    .mediaart-square:hover{
-        opacity: 0.7;
-        border: 3px solid #f7ef99;
-        background-color: #f7ef99;
-        color: #3f4661;
-        transition: 0.5s;
-    }
-
 
     .photo3{
         background-image: url(img/mediaart2.png);
         background-size: cover;
-        width: 230px;
-        height: 130px;
-        margin: 10px;
-        margin-left: 35px;
+        width: 130px;
+        height: 80px;
+        margin: 0 auto;
     }
 
     .coming-soon{
-        width: 300px;
-        height: 350px;
+        width: 175px;
+        height: 180px;
         border: 3px solid #3f4661;
         background-color: #f9f6ff;
         padding: 20px;
         margin: 0 auto;
         text-align: center;
-        border-radius: 20%;
+        border-radius: 5%;
         margin-bottom: 30px;
         color: #22223b;
     }
 
-    .coming-soon:hover{
-        opacity: 0.7;
-        border: 3px solid #f7ef99;
-        background-color: #f7ef99;
-        color: #3f4661;
-        transition: 0.5s;
-    }
-
-
     .coming-soon-word{
-        margin-top: 150px;
+        margin-top: 80px;
     }
 
     .botton{
-        width: 150px;
-        height: 30px;
+        width: 120px;
+        height: 20px;
         border: 2px solid #3f4661;
         background-color: #f9f6ff;
-        padding: 10px;
-        padding-top: 15px;
+        padding: 5px;
         text-decoration: none;
         border-radius: 10px;
         text-align: center;
-        margin-left: 60px;
-        margin-top: 20px;
-    }
-
-    .botton:hover{
-        border: 2px solid #f9f6ff;
-        background-color: #f9f6ff;
-        transition: 0.5s;
-    }
-
-    .media{
-        margin: 50px;
+        margin: 0 auto;
         margin-top: 20px;
     }
 
     .contact{
         margin: 0 auto;
-        font-size: 40px;
         margin-bottom: 10px;
         font-family: "Bad Script";
     }
 
     .font-awesome{
         float: left;
-        margin-bottom: 50px;
-        margin-right: 40px;
+        padding: 0px;
     }
-
+    
+    .left{
+        padding-left: 15px;
+    }
+    
     .mark{
-       padding-left: 190px;
+       padding-left: 0px;
     }
 
     .blue{
@@ -888,38 +737,7 @@
     .blue2{
         color: deepskyblue;
     }
-
-    .red{
-        color: orangered;
-    }
-
-    .story{
-        margin: 50px;
-    }
-
-    .blog{
-        margin: 0 auto;
-        font-size: 40px;
-        margin-bottom: 10px;
-        font-family: "Bad Script";
-    }
-
-    .note-embed{
-        float: right;
-        padding-right: 30px;
-    }
-
-    .note-words{
-        padding-left: 0px;
-        text-align: left;
-        padding-top: 100px;
-    }
-
-    .note{
-        width: 200px;
-        height: 30px;
-    }
-
+    
     .english{
         font-family: "Varela Round";
     }
@@ -935,7 +753,7 @@
     }
 }
 
-/*タブレット向け*/
+/*タブレット向け 完了*/
 @media screen and (min-width:481px) and (max-width:1024px) {
 
     .container{
@@ -987,7 +805,7 @@
     }
 
     body{
-        width: 150%;
+        width: 100%;
     }
     
     header{
@@ -1024,7 +842,7 @@
     }
     
     .section-square{
-        width: 830px;
+        width: 600px;
         height: 400px;
         border: 3px solid #cab1ec;
         background-color: #f9f6ff;
@@ -1039,30 +857,23 @@
     }
     
     .can{
-        height: 570px;
+        height: 700px;
     }
 
     .job{
-        width: 850px;
-        height: 950px; 
+        height: 1350px; 
     }
 
     .sns{
-        width: 850px;
         height: 200px; 
         text-align: center;
-    }
-
-    .blo{
-        width: 850px;
-        height: 650px; 
     }
 
     .title{
         background-image: url(img/toki-time.jpg);
         background-size: cover;
-        width: 840px;
-        height: 560px;
+        width: 600px;
+        height: 400px;
         text-align: center;
         object-fit: cover;
         margin: 0 auto;
@@ -1081,10 +892,6 @@
         margin-top: 30px;
     }
 
-    .about{
-        margin: 10 auto;
-    }
-
     .Profile{
         margin: 0 auto;
         font-size: 40px;
@@ -1095,12 +902,12 @@
     .photo1{
         background-image: url(img/toki.jpg);
         background-size: cover;
-        width: 240px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         float: left;
         border-radius: 20%;
         margin-right: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 100px;
     }
 
     .myname{
@@ -1110,10 +917,6 @@
     .me{
         padding-top: 3px;
         font-family: "M PLUS Rounded 1c";
-    }
-
-    .skill{
-        margin: 10px;
     }
 
     .Ican{
@@ -1132,32 +935,28 @@
 
     .square1{
         width: 175px;
-        height: 195px;
+        height: 150px;
         border: 3px solid #cab1ec;
         background-color: #f9f6ff;
         padding: 20px;
         margin: 20 auto;
         text-align: center;
-        border-radius: 20%;
+        border-radius: 5%;
         margin-bottom: 10px;
         font-family: "M PLUS Rounded 1c";
     }
 
     .square2{
         width: 175px;
-        height: 195px;
+        height: 150px;
         border: 3px solid #e26499;
         background-color: #f9f6ff;
         padding: 20px;
         margin: 20 auto;
         text-align: center;
-        border-radius: 20%;
+        border-radius: 5%;
         margin-bottom: 10px;
         font-family: "M PLUS Rounded 1c";
-    }
-    
-    .a{
-        font-size: 17px;
     }
 
     .small{
@@ -1166,54 +965,12 @@
     }
 
     .center{
-        margin-top: 20px;
-    }
-
-    .star3{
-        float: left;
-        text-align: center;
-        margin-top: 10px;
-    }
-
-    .star2{
-        float: left;
-        text-align: center;
-    }
-
-    .star1{
-        float: left;
-        text-align: center;
-        margin-left: 75px;
-    }
-
-    .star3-f{
-        float: left;
-        text-align: center;
-        margin-top: 10px;
-        margin-left: 40px;
-    }
-
-    .star2-f{
-        float: left;
-        text-align: center;
-        margin-left: 60px;
-    }
-
-    .purple{
-        color: #cab1ec;
-    }
-
-    .pink{
-       color: #e26499; 
+        margin-top: 40px;
     }
 
     .big-mini{
         font-size: 23px;
         padding-top: 0;
-    }
-
-    .act{
-        margin: 50px;
     }
 
     .works{
@@ -1242,14 +999,6 @@
         color: #22223b;
     }
 
-    .tokitopo-square:hover{
-        opacity: 0.7;
-        border: 3px solid #f7ef99;
-        background-color: #f7ef99;
-        color: #3f4661;
-        transition: 0.5s;
-    }
-
     .tokitopo-center{
         text-align: center;
     }
@@ -1275,15 +1024,6 @@
         color: #22223b;
     }
 
-    .mediaart-square:hover{
-        opacity: 0.7;
-        border: 3px solid #f7ef99;
-        background-color: #f7ef99;
-        color: #3f4661;
-        transition: 0.5s;
-    }
-
-
     .photo3{
         background-image: url(img/mediaart2.png);
         background-size: cover;
@@ -1305,15 +1045,6 @@
         color: #22223b;
     }
 
-    .coming-soon:hover{
-        opacity: 0.7;
-        border: 3px solid #f7ef99;
-        background-color: #f7ef99;
-        color: #3f4661;
-        transition: 0.5s;
-    }
-
-
     .coming-soon-word{
         margin-top: 150px;
     }
@@ -1332,17 +1063,6 @@
         margin-top: 20px;
     }
 
-    .botton:hover{
-        border: 2px solid #f9f6ff;
-        background-color: #f9f6ff;
-        transition: 0.5s;
-    }
-
-    .media{
-        margin: 50px;
-        margin-top: 20px;
-    }
-
     .contact{
         margin: 0 auto;
         font-size: 40px;
@@ -1353,13 +1073,13 @@
     .font-awesome{
         float: left;
         margin-bottom: 50px;
-        margin-right: 40px;
+        margin-right: 30px;
     }
-
-    .mark{
-       padding-left: 190px;
+    
+    .left{
+        margin-left: 150px;
     }
-
+    
     .blue{
         color: dodgerblue;
     }
@@ -1370,37 +1090,6 @@
 
     .blue2{
         color: deepskyblue;
-    }
-
-    .red{
-        color: orangered;
-    }
-
-    .story{
-        margin: 50px;
-    }
-
-    .blog{
-        margin: 0 auto;
-        font-size: 40px;
-        margin-bottom: 10px;
-        font-family: "Bad Script";
-    }
-
-    .note-embed{
-        float: right;
-        padding-right: 30px;
-    }
-
-    .note-words{
-        padding-left: 0px;
-        text-align: left;
-        padding-top: 100px;
-    }
-
-    .note{
-        width: 200px;
-        height: 30px;
     }
 
     .english{
@@ -1416,5 +1105,4 @@
         padding: 0px;  
         font-family: "M PLUS Rounded 1c";
     }
-}
 }
