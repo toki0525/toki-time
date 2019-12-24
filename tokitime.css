@@ -161,6 +161,10 @@
         justify-content: space-around;
         align-content: space-around;
     }
+    
+    .box6{
+        display: none;
+    }
 
     .square1{
         width: 175px;
@@ -575,6 +579,10 @@
         justify-content: space-around;
         align-content: space-around;
     }
+    
+    .box6{
+        display: none;
+    }
 
     .square1{
         width: 175px;
@@ -630,7 +638,7 @@
         height: 220px;
         border: 3px solid #3f4661;
         background-color: #f9f6ff;
-        padding: 10px;
+        padding: 20px;
         margin: 0 auto;
         text-align: center;
         border-radius: 5%;
@@ -962,6 +970,10 @@
     .small{
         padding-top: 1px;
         padding-bottom: 0;
+    }
+    
+    .comesoon{
+        margin: 40px;
     }
 
     .center{
